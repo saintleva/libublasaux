@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="libublasaux" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option type="4" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option type="4" />
+				<Option compiler="gcc" />
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add directory="../../include/" />
+		</Compiler>
+		<Unit filename="../../doc/doxygen/english/Doxyfile">
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="../../include/BaseNiceOutputer.h" />
+		<Unit filename="../../include/MatrixNiceOutputer.h">
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="../../include/RandomGenerator.h">
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="../../include/StdDispatchRandomizer.h">
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="../../include/TypeReplacer.h">
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="../../include/VectorNiceOutputer.h">
+			<Option target="Debug" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
